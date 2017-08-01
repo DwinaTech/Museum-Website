@@ -1,3 +1,4 @@
+/************ Global **************/
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +20,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+/*============ Main Content =============*/
 .main-content{
     
 }
@@ -32,6 +34,10 @@ body{
 .head-detail{
     width: 80%;
     float: left;
+}
+.head-detail > h1{
+   font-size: 30px;
+   padding-bottom: 5px;
 }
 .find-out-button{
     width: 20%;
@@ -55,46 +61,22 @@ body{
     background: #ddd;
     overflow: hidden;
 }
-.containt{
+.conteint{
     padding: 20px 0;
     width: 80%;
     float: left;
 }
-.articles > article{
-    background: #fff;
-    float: left;
-}
-.articles > article:not(:last-child){
-    margin-right: 1%;
-}
-.read-more-button{
-    border-bottom: 1px solid #b7b7b7;
-    border-right: 1px solid #b7b7b7;
-    border-left: 1px solid #b7b7b7;
-    padding: 20px 0;
-    text-align: center;
-}
-.read-more-button > button{
-    padding: 3px 6px;
-    font-size: 12px;
-    color: #239fdb;
-    border: 1px solid #239fdb;
-    background: #fff;
-}
-
-.head-detail > h1{
-   font-size: 30px;
-   padding-bottom: 5px;
-}
-.content-warp .containt .news-head{
+.content-warp .conteint .news-head{
     font-size: 20px;
     padding: 20px 0 15px 0;
 }
-.articles article{
+.articles > article{
+    background: #fff;
+    float: left;
     width: 32%;
 }
-.group-articles .articles article{
-    width: 24.2%;
+.articles > article:not(:last-child){
+    margin-right: 1%;
 }
 .articles article > img{
     width: 100%;
@@ -111,6 +93,20 @@ body{
 .articles .art-info > p{
     padding: 10px 0;
 }
+.read-more-button{
+    border-bottom: 1px solid #b7b7b7;
+    border-right: 1px solid #b7b7b7;
+    border-left: 1px solid #b7b7b7;
+    padding: 20px 0;
+    text-align: center;
+}
+.read-more-button > button{
+    padding: 3px 6px;
+    font-size: 12px;
+    color: #239fdb;
+    border: 1px solid #239fdb;
+    background: #fff;
+}
 /****************
     Second head
 *****************/
@@ -124,6 +120,11 @@ body{
 .second-head > h1{
     font-size: 25px;
     padding: 15px 0 5px 0;
+}
+
+/* Group of articles more than three on row */
+.group-articles .articles article{
+    width: 24.2%;
 }
 /****************
     AsideBar
