@@ -67,9 +67,22 @@ body{
     width: 80%;
     float: left;
 }
+.head-warp{
+	width: 100%;
+	height: 20px;
+	margin-bottom: 15px;
+}
 .content-warp .conteint .news-head{
     font-size: 20px;
-    padding: 20px 0 15px 0;
+    width: 16%;
+    float: left;
+}
+.content-warp .conteint .head-border{
+    height: 1px;
+    background: gray;
+    width: 84%;
+    float: right;
+    margin-top: 15px;
 }
 .articles > article{
     background: #fff;
@@ -77,6 +90,9 @@ body{
     width: 32%;
 }
 .articles > article:not(:last-child){
+    margin-right: 2%;
+}
+.group-articles .articles > article:not(:last-child){
     margin-right: 1%;
 }
 .articles article > img{
@@ -118,6 +134,7 @@ body{
     background: #325249;
     color: #fff;
     text-align: center;
+	margin-bottom: 25px;
 }
 .second-head > h1{
     font-size: 25px;
@@ -128,10 +145,105 @@ body{
 .group-articles .articles article{
     width: 24.2%;
 }
+.second-head-warp{
+	font-size: 10px;
+    width: 100%;
+}
+.second-head-warp .first-group{
+    width: 50%;
+	float: left;
+	margin-bottom: 19px;
+}
+.second-head-warp .first-group .news-head{
+	width: 40%;
+	float: left;
+}
+.second-head-warp .first-group .head-border{
+	width: 43%;
+	float: left;
+	background: gray;
+	height: 1px;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+.second-head-warp .first-group > button{
+	width: 15%;
+	font-size: 5px;
+	margin-top: 5px;
+	background: #325249;
+	padding: 4px 2px;
+	border: none;
+}
+.second-head-warp .first-group > button >a,
+.second-head-warp .second-group > button >a,
+.third-head-warp > button >a{
+	text-decoration: none;
+	color: #fff;
+}
+.second-head-warp .second-group{
+    width: 50%;
+	float: right;
+	margin-bottom: 19px;
+}
+.second-head-warp .second-group .news-head{
+	width: 35%;
+	float: left;
+}
+.second-head-warp .second-group .head-border{
+	width: 49%;
+	float: left;
+	background: gray;
+	height: 1px;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+.second-head-warp .second-group > button{
+	width: 15%;
+	font-size: 5px;
+	background: #325249;
+	padding:4px 2px;
+	border: none;
+	margin-top: 5px;
+}
+/******** Third header ********/
+.third-head-warp{
+	width: 100%;
+	height: 20px;
+	font-size: 12px;
+}
+.third-head-warp .news-head{
+	width: 22%;
+	float: left;
+	margin: 25px 0 5px 0;
+}
+.third-head-warp .head-border{
+	width: 67.4%;
+	float: left;
+	background: gray;
+	height: 1px;
+	margin: 40px 5px 30px 0;
+}
+.third-head-warp > button{
+	width: 10%;
+	font-size: 5px;
+	background: #325249;
+	padding:4px 2px;
+	border: none;
+	margin: 30px 0 5px 0;
+}
 /****************
     AsideBar
 *****************/
 .side-bar{
     width: 20%;
     float: right;
+}
+/*######## Media quiry #########*/
+@media (max-width: 1200px){
+	.content-warp .conteint .news-head{
+    width: 21%;
+}
+.content-warp .conteint .head-border{
+    width: 79%;
+}
 }
