@@ -239,12 +239,44 @@ body{
     width: 20%;
     float: right;
 }
-/*######## Media quiry #########*/
-@media (max-width: 1200px){
-	.content-warp .conteint .news-head{
-    width: 21%;
+/*============== Media quiry ===================*/
+/*######## Medium Screen #########*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .content-warp .conteint .news-head{
+        width: 21%;
+    }
+    .content-warp .conteint .head-border{
+        width: 79%;
+    }
+    .third-head-warp .news-head {
+        width: 30%;
+    }
+    /********** Second Head **********/
+   .second-head-warp .first-group .news-head {
+        width: 54%;
+    }
+    .second-head-warp .first-group .head-border {
+        width: 18%;
+    }
+    .second-head-warp .first-group > button {
+        width: 25%;
+    }
+    .second-head-warp .second-group .news-head {
+        width: 49%;
+    }
+    .second-head-warp .second-group .head-border {
+        width: 24%;
+    }
+    .second-head-warp .second-group > button {
+        width: 25%;
+    }
 }
-.content-warp .conteint .head-border{
-    width: 79%;
-}
+/*######## Larg Screen #########*/
+@media (min-width: 1200px){
+    /* .content-warp .conteint .news-head{
+        width: 21%;
+    }
+    .content-warp .conteint .head-border{
+        width: 79%;
+    } */
 }
