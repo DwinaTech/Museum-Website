@@ -362,6 +362,12 @@ body{
     }
 
 }
+/*########  Just to customize main Content #########*/
+@media (min-width: 1036px) and (max-width: 1199px){
+    .main-content {
+        margin-top: -109px;
+    }
+}
 /*######## Larg Screen #########*/
 @media (min-width: 1200px){
     /* .content-warp .conteint .news-head{
