@@ -310,7 +310,7 @@ body{
 /*######## Medium Screen #########*/
 @media (min-width: 992px) and (max-width: 1199px){
     .main-content {
-        margin-top: -109px;
+        margin-top: -147px;
     }
     .content-warp .conteint .news-head{
         width: 22%;
