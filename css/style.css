@@ -19,10 +19,25 @@ body{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 /*============ Main Content =============*/
 .main-content{
-    
+    position: absolute;
+    margin-top: -100px;
+    z-index: 27;
+    left: 7.5%;
+    right: 7.5%;
+}
+.head-background{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.head-background >img{
+    height: 400px;
+    width: 100%;
 }
 .content-head{
     width: 100%;
@@ -294,6 +309,9 @@ body{
 /*============== Media quiry ===================*/
 /*######## Medium Screen #########*/
 @media (min-width: 992px) and (max-width: 1199px){
+    .main-content {
+        margin-top: -109px;
+    }
     .content-warp .conteint .news-head{
         width: 22%;
     }
@@ -342,6 +360,7 @@ body{
         padding: 3px 2px;
         margin-top: 28px;
     }
+
 }
 /*######## Larg Screen #########*/
 @media (min-width: 1200px){
@@ -361,4 +380,5 @@ body{
     .side-bar-head-warp > button {
         width: 44%;
     } */
+    
 }
