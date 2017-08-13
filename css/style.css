@@ -157,17 +157,33 @@ body{
 }
 
 /* Group of articles more than three on row */
-.group-articles .articles article{
-    width: 24.2%;
-}
 .second-head-warp{
 	font-size: 10px;
     width: 100%;
 }
+.group-articles .articles article{
+    width: 48%;
+    float: left;
+    font-size: 14px;
+    margin-top: 15px;
+    background: #fff;
+}
+.group-articles .last-group .articles article{
+    width: 24.2%;
+}
+.second-head-warp .first-group >article,
+.second-head-warp .second-group >article{
+    margin-right: 3.9%;
+}
+.second-head-warp .first-group article:last-child,
+.second-head-warp .second-group article:last-child{
+    margin-right: 0;
+}
 .second-head-warp .first-group{
-    width: 50%;
+    width: 49%;
 	float: left;
-	margin-bottom: 19px;
+    margin-bottom: 19px;
+    margin-right: 2%;
 }
 .second-head-warp .first-group .news-head{
 	width: 40%;
@@ -182,7 +198,7 @@ body{
 	margin-right: 5px;
 }
 .second-head-warp .first-group > button{
-	width: 15%;
+	width: 16%;
 	font-size: 5px;
 	margin-top: 5px;
 	background: #325249;
@@ -197,16 +213,17 @@ body{
 	color: #fff;
 }
 .second-head-warp .second-group{
-    width: 50%;
+    width: 49%;
 	float: right;
-	margin-bottom: 19px;
+    margin-bottom: 19px;
+    margin-right: 0;
 }
 .second-head-warp .second-group .news-head{
-	width: 35%;
+	width: 37%;
 	float: left;
 }
 .second-head-warp .second-group .head-border{
-	width: 49%;
+	width: 47%;
 	float: left;
 	background: gray;
 	height: 1px;
@@ -220,6 +237,12 @@ body{
 	padding:4px 2px;
 	border: none;
 	margin-top: 5px;
+}
+.second-head-warp .second-group >article{
+    margin-right: 3.9%;
+}
+.second-head-warp .second-group article:last-child{
+    margin-right: 0;
 }
 /******** Third header ********/
 .third-head-warp{
@@ -307,6 +330,150 @@ body{
     float: right;
 }
 /*============== Media quiry ===================*/
+/*######## Extra Small Screen #########*/
+@media (max-width: 767px){
+     .container{
+        width: 100%;
+     }
+    .main-content {
+        margin-top: -147px;
+        left: 0;
+        right: 0;
+    }
+    .conteint {
+        width: 100%;
+    }
+    .content-warp .conteint .news-head {
+         width: 23%; 
+    }
+    .content-warp .conteint .head-border {
+         width: 77%; 
+    }
+    .articles > article,
+    .second-head-warp .first-group article,
+    .second-head-warp .second-group article,
+    .group-articles .last-group .articles article{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .articles > article >img,
+    .second-head-warp .first-group article >img,
+    .second-head-warp .second-group article >img,
+    .third-head-warp article >img{
+        height: 250px;
+    }
+/************** Side Bar ****************/
+    .side-bar {
+         width: 100%;
+        padding-left: 0; 
+    }
+    .side-bar-head-warp .events-head {
+         width: 12%; 
+    }
+    .side-bar-head-warp .head-border {
+         width: 72%; 
+    }
+    .side-bar-head-warp > button {
+         width: 15%; 
+    }
+    /************** articles head ***************/
+    .second-head-warp .first-group,
+    .second-head-warp .second-group {
+         width: 100%; 
+    }
+    .second-head-warp .first-group .news-head {
+         width: 31%; 
+    }
+    .second-head-warp .first-group .head-border {
+         width: 53%; 
+    }
+    .second-head-warp .first-group > button {
+         width: 15%; 
+    }
+    .second-head-warp .second-group .news-head {
+         width: 28%; 
+    }
+    .second-head-warp .second-group .head-border {
+         width: 53%; 
+    }
+    .third-head-warp .news-head {
+         width: 34%; 
+    }
+    .third-head-warp .head-border {
+         width: 48%;  
+    }
+    .third-head-warp > button {
+         width: 17%; 
+    }
+
+}
+/*######## Small Screen #########*/
+@media (min-width: 768px) and (max-width: 991px){
+     .container{
+        width: 100%;
+     }
+    .main-content {
+        margin-top: -147px;
+        left: 0;
+        right: 0;
+    }
+    .conteint {
+        width: 100%;
+    }
+    .content-warp .conteint .news-head {
+        width: 20%;
+    }
+    .content-warp .conteint .head-border {
+        width: 80%;
+    }
+/************** Side Bar ****************/
+    .side-bar {
+        width: 100%;
+        padding-left: 0;
+    }
+    .side-bar-head-warp .events-head {
+        width: 12%;
+    }
+    .side-bar-head-warp .head-border {
+        width: 72%;
+    }
+    .side-bar-head-warp > button {
+        width: 15%;
+    }
+    .calnder-warp {
+        width: 40%;
+    }
+    /************** articles head ***************/
+    .second-head-warp .first-group,
+    .second-head-warp .second-group {
+        width: 100%;
+    }
+    .second-head-warp .first-group .news-head {
+        width: 31%;
+    }
+    .second-head-warp .first-group .head-border {
+        width: 53%;
+    }
+    .second-head-warp .first-group > button {
+        width: 15%;
+    }
+    .second-head-warp .second-group .news-head {
+        width: 28%;
+    }
+    .second-head-warp .second-group .head-border {
+        width: 53%;
+    }
+    .third-head-warp .news-head {
+        width: 34%;
+    }
+    .third-head-warp .head-border {
+        width: 48%; 
+    }
+    .third-head-warp > button {
+        width: 17%;
+    }
+
+}
 /*######## Medium Screen #########*/
 @media (min-width: 992px) and (max-width: 1199px){
     .main-content {
@@ -323,19 +490,19 @@ body{
     }
     /********** Second Head **********/
    .second-head-warp .first-group .news-head {
-        width: 54%;
+        width: 55.72%;
     }
     .second-head-warp .first-group .head-border {
-        width: 18%;
+        width: 17%;
     }
     .second-head-warp .first-group > button {
         width: 25%;
     }
     .second-head-warp .second-group .news-head {
-        width: 49%;
+        width: 50%;
     }
     .second-head-warp .second-group .head-border {
-        width: 24%;
+        width: 23%;
     }
     .second-head-warp .second-group > button {
         width: 25%;
@@ -356,9 +523,9 @@ body{
         display: none;
     }
     .side-bar-head-warp > button {
-        width: 55%;
+        width: 54%;
         padding: 3px 2px;
-        margin-top: 28px;
+        margin-top: 20px;
     }
 
 }
