@@ -88,13 +88,13 @@ body{
 }
 .content-warp .conteint .news-head{
     font-size: 20px;
-    width: 16%;
+    width: 18%;
     float: left;
 }
 .content-warp .conteint .head-border{
     height: 1px;
     background: gray;
-    width: 84%;
+    width: 81%;
     float: right;
     margin-top: 15px;
 }
@@ -186,11 +186,11 @@ body{
     margin-right: 2%;
 }
 .second-head-warp .first-group .news-head{
-	width: 40%;
+	width: 46%;
 	float: left;
 }
 .second-head-warp .first-group .head-border{
-	width: 43%;
+	width: 35%;
 	float: left;
 	background: gray;
 	height: 1px;
@@ -198,7 +198,7 @@ body{
 	margin-right: 5px;
 }
 .second-head-warp .first-group > button{
-	width: 16%;
+	width: 17.9%;
 	font-size: 5px;
 	margin-top: 5px;
 	background: #325249;
@@ -219,11 +219,11 @@ body{
     margin-right: 0;
 }
 .second-head-warp .second-group .news-head{
-	width: 37%;
+	width: 41%;
 	float: left;
 }
 .second-head-warp .second-group .head-border{
-	width: 47%;
+	width: 39%;
 	float: left;
 	background: gray;
 	height: 1px;
@@ -231,7 +231,7 @@ body{
 	margin-right: 5px;
 }
 .second-head-warp .second-group > button{
-	width: 15%;
+	width: 18%;
 	font-size: 5px;
 	background: #325249;
 	padding:4px 2px;
@@ -251,12 +251,12 @@ body{
 	font-size: 12px;
 }
 .third-head-warp .news-head{
-	width: 22%;
+	width: 25%;
 	float: left;
 	margin: 25px 0 5px 0;
 }
 .third-head-warp .head-border{
-	width: 67.4%;
+	width: 64.4%;
 	float: left;
 	background: gray;
 	height: 1px;
@@ -282,12 +282,12 @@ body{
     width: 100%;
 }
 .side-bar-head-warp .events-head{
-	width: 32%;
+	width: 37%;
     float: left;
     margin: 20px 0 5px 0;
 }
 .side-bar-head-warp .head-border{
-	width: 22%;
+	width: 16%;
     float: left;
     background: gray;
     height: 1px;
