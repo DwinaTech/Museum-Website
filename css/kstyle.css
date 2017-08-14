@@ -1,0 +1,129 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #active {
+            background-color: purple;
+        }
+        
+        .header-secandPart ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        
+        .header-secandPart li {
+            text-align: none;
+            list-style: none;
+            font-size: 16px;
+            padding: 8px;
+            color: gray;
+            margin-left: 12px;
+        }
+        
+        @media (max-width: 1000px) {
+            .header-secandPart ul {
+                margin-left: 0%;
+                margin-right: 0%;
+            }
+        }
+        
+        @media (max-width: 525px) {
+            .header-secandPart ul {
+                display: none;
+            }
+        }
+   
+    .navRight img {
+        width: 25px;
+    }
+    
+    .navRight button {
+        background-color: rgb(28, 78, 190);
+        width: 210px;
+        height: 40px;
+        font-size: 16px;
+        color: white;
+        border: solid 1px white;
+    }
+    
+    header {
+ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(28, 78, 190);
+        max-height: 128px;
+    }
+    
+    .navLeft img {
+        width: 85%;
+        margin-top: 38px;
+    }
+    
+    .narRightImages img {
+        margin: 5px;
+    }
+    
+    .navRight {
+        min-height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    .myline {
+        width: 100%;
+        height: 8px;
+    }
+    
+    .darBlueLine {
+        background-color: rgb(4, 0, 41);
+    }
+    
+    .moveLine {
+        background-color: rgb(69, 18, 110);
+    }
+    
+    .blueLine {
+        background-color: rgb(28, 78, 190);
+    }
+    
+    footer {
+        background: grey;
+    }
+    
+    .box {
+        border: solid 1px red;
+        width: 270px;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 95px;
+    }
+    
+    @media screen and (max-width:500px) {
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(28, 78, 190);
+            max-height: 428px;
+        }
+        .navRight button {
+            margin-bottom: 10px;
+        }
+    }
