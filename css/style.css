@@ -23,6 +23,19 @@ body{
     overflow: hidden;
     margin-top: -100px;
 }
+/*///////////====== Header content =====//////////////*/
+.narRightImages .fa:not(:last-child){
+    background: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: blue;
+}
+
+.narRightImages .fa:last-child{
+    color: #fff;
+    font-size: 20px;
+}
 /*============ Main Content =============*/
 .main-content{
     margin-top: 100px;
@@ -350,6 +363,11 @@ body{
     border-right: 1px solid #ccc;
     text-decoration: none;
     color: #000;
+}
+/************* Footer ***************/
+.images-box .fa{
+    background: #252323;
+    padding: 5px 10px;
 }
 /*============== Media quiry ===================*/
 /*######## Extra Small Screen #########*/
