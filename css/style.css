@@ -16,15 +16,16 @@ body{
 .clear-fix{
     clear: both;
 }
-.container{
+.container2{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    margin-top: -100px;
 }
 /*============ Main Content =============*/
 .main-content{
-    margin-top: 0;
+    margin-top: 100px;
 }
 .head-background{
     height: 400px;
@@ -350,19 +351,20 @@ body{
     text-decoration: none;
     color: #000;
 }
-
 /*============== Media quiry ===================*/
 /*######## Extra Small Screen #########*/
 @media (max-width: 767px){
-     .container{
+     .container2{
         width: 100%;
+        margin-top: -147px;
      }
     .main-content {
-        margin-top: -147px;
-        left: 0;
-        right: 0;
+        margin-top: 147px;
     }
     .conteint {
+        width: 100%;
+    }
+    .content-head{
         width: 100%;
     }
     .content-warp .conteint .news-head {
@@ -404,25 +406,25 @@ body{
          width: 100%;
     }
     .second-head-warp .first-group .news-head {
-         width: 31%;
+         width: 40%;
     }
     .second-head-warp .first-group .head-border {
-         width: 53%;
+         width: 44%;
     }
     .second-head-warp .first-group > button {
          width: 15%;
     }
     .second-head-warp .second-group .news-head {
-         width: 28%;
+         width: 36%;
     }
     .second-head-warp .second-group .head-border {
-         width: 53%;
+         width: 45%;
     }
     .third-head-warp .news-head {
-         width: 34%;
+         width: 43%;
     }
     .third-head-warp .head-border {
-         width: 48%;
+         width: 39%;
     }
     .third-head-warp > button {
          width: 17%;
@@ -431,15 +433,17 @@ body{
 }
 /*######## Small Screen #########*/
 @media (min-width: 768px) and (max-width: 991px){
-     .container{
+     .container2{
         width: 100%;
+        margin-top: -147px;
      }
     .main-content {
-        margin-top: -147px;
-        left: 0;
-        right: 0;
+        margin-top: 147px;
     }
     .conteint {
+        width: 100%;
+    }
+    .content-head{
         width: 100%;
     }
     .content-warp .conteint .news-head {
@@ -474,72 +478,89 @@ body{
         width: 100%;
     }
     .second-head-warp .first-group .news-head {
-        width: 31%;
+        width: 32%;
     }
     .second-head-warp .first-group .head-border {
-        width: 53%;
+        width: 52.3%;
     }
     .second-head-warp .first-group > button {
         width: 15%;
     }
     .second-head-warp .second-group .news-head {
-        width: 28%;
+        width: 29%;
     }
     .second-head-warp .second-group .head-border {
-        width: 53%;
+        width: 52.3%;
     }
     .third-head-warp .news-head {
-        width: 34%;
+        width: 35%;
     }
     .third-head-warp .head-border {
-        width: 48%;
+        width: 47%;
     }
     .third-head-warp > button {
         width: 17%;
     }
 
 }
+/*######## Small Screen #########*/
+@media (min-width: 925px) and (max-width: 991px){
+     .container2{
+        width: 100%;
+        margin-top: -108px;
+     }
+    .main-content {
+        margin-top: 108px;
+    }
+}
 /*######## Medium Screen #########*/
 @media (min-width: 992px) and (max-width: 1199px){
-    .main-content {
+    .container2 {
         margin-top: -147px;
     }
+    .main-content {
+        margin-top: 147px;
+    }
     .content-warp .conteint .news-head{
-        width: 22%;
+        width: 23%;
     }
     .content-warp .conteint .head-border{
-        width: 77%;
+        width: 76%;
     }
     .third-head-warp .news-head {
         width: 30%;
     }
     /********** Second Head **********/
    .second-head-warp .first-group .news-head {
-        width: 55.72%;
+        width: 60%;
     }
     .second-head-warp .first-group .head-border {
-        width: 17%;
+        width: 13.7%;
     }
     .second-head-warp .first-group > button {
         width: 25%;
     }
     .second-head-warp .second-group .news-head {
-        width: 50%;
+        width: 53%;
     }
     .second-head-warp .second-group .head-border {
-        width: 23%;
+        width: 20.7%;
     }
     .second-head-warp .second-group > button {
         width: 25%;
     }
     /******** Third header ********/
     .third-head-warp .news-head{
-        width: 30%;
+        width: 31%;
     }
     .third-head-warp .head-border{
-        width: 59%;
+        width: 58%;
     }
 /*********** Side Bar ************/
+    .side-bar-head-warp {
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
     .side-bar-head-warp .events-head {
         width: 45%;
         font-size: 18px;
@@ -552,23 +573,57 @@ body{
         padding: 3px 2px;
         margin-top: 20px;
     }
-
 }
 
 /*########  Just to customize main Content #########*/
 @media (min-width: 1036px) and (max-width: 1199px){
     .main-content {
+        margin-top: 147px;
+    }
+}
+/*########  Just to customize main Content #########*/
+@media (min-width: 1085px) and (max-width: 1199px){
+    .container2 {
         margin-top: -109px;
+    }
+    .main-content {
+        margin-top: 109px;
     }
 }
 /*######## Larg Screen #########*/
-@media (min-width: 1200px){
-    /* .content-warp .conteint .news-head{
-        width: 21%;
+@media (min-width: 1200px) and (max-width: 1279px){
+    .container2 {
+        margin-top: -109px;
+    }
+    .content-warp .conteint .news-head{
+        width: 19%;
     }
     .content-warp .conteint .head-border{
-        width: 79%;
-    } */
+        width: 80%;
+    }
+    .second-head-warp .first-group .news-head {
+        width: 48%;
+        float: left;
+    }
+    .second-head-warp .first-group .head-border {
+        width: 33%;
+    }
+    .second-head-warp .second-group .news-head {
+        width: 44%;
+        float: left;
+    }
+    .second-head-warp .second-group .head-border {
+        width: 36%;
+    }
+    .second-head-warp .second-group > button {
+        width: 18.9%;
+    }
+    .third-head-warp .news-head {
+        width: 26%; 
+    }
+    .third-head-warp .head-border {
+        width: 63.4%; 
+    }
     /************ Side Bar ************/
     /* .side-bar-head-warp .events-head {
         width: 40%;
