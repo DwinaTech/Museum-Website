@@ -7,10 +7,11 @@
     -o-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
- 
+
 }
 .clear-fix{
     clear: both;
@@ -22,9 +23,7 @@ body{
     overflow: hidden;
 }
 /*============ Main Content =============*/
-.main-content{
-    margin-top: -100px;
-}
+ 
 .head-background{
     height: 400px;
     width: 100%;
@@ -363,10 +362,10 @@ body{
         width: 100%;
     }
     .content-warp .conteint .news-head {
-         width: 23%; 
+         width: 23%;
     }
     .content-warp .conteint .head-border {
-         width: 77%; 
+         width: 77%;
     }
     .articles > article,
     .second-head-warp .first-group article,
@@ -384,45 +383,45 @@ body{
 /************** Side Bar ****************/
     .side-bar {
          width: 100%;
-        padding-left: 0; 
+        padding-left: 0;
     }
     .side-bar-head-warp .events-head {
-         width: 12%; 
+         width: 12%;
     }
     .side-bar-head-warp .head-border {
-         width: 72%; 
+         width: 72%;
     }
     .side-bar-head-warp > button {
-         width: 15%; 
+         width: 15%;
     }
     /************** articles head ***************/
     .second-head-warp .first-group,
     .second-head-warp .second-group {
-         width: 100%; 
+         width: 100%;
     }
     .second-head-warp .first-group .news-head {
-         width: 31%; 
+         width: 31%;
     }
     .second-head-warp .first-group .head-border {
-         width: 53%; 
+         width: 53%;
     }
     .second-head-warp .first-group > button {
-         width: 15%; 
+         width: 15%;
     }
     .second-head-warp .second-group .news-head {
-         width: 28%; 
+         width: 28%;
     }
     .second-head-warp .second-group .head-border {
-         width: 53%; 
+         width: 53%;
     }
     .third-head-warp .news-head {
-         width: 34%; 
+         width: 34%;
     }
     .third-head-warp .head-border {
-         width: 48%;  
+         width: 48%;
     }
     .third-head-warp > button {
-         width: 17%; 
+         width: 17%;
     }
 
 }
@@ -463,7 +462,7 @@ body{
         width: 40%;
     }
     .calnder-buttoms-warp{
-        width: 40%;    
+        width: 40%;
     }
     /************** articles head ***************/
     .second-head-warp .first-group,
@@ -489,7 +488,7 @@ body{
         width: 34%;
     }
     .third-head-warp .head-border {
-        width: 48%; 
+        width: 48%;
     }
     .third-head-warp > button {
         width: 17%;
@@ -576,5 +575,5 @@ body{
     .side-bar-head-warp > button {
         width: 44%;
     } */
-    
+
 }
