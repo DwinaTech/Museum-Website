@@ -1,0 +1,25 @@
+{
+  "name": "museum-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev":"nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDwina/Museum-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrDwina/Museum-Website/issues"
+  },
+  "homepage": "https://github.com/MrDwina/Museum-Website#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.11.0"
+  }
+}

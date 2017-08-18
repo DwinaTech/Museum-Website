@@ -184,8 +184,11 @@
         margin-left: 95px;
     }
     .footer-two{
-      display: flex;
-      background-color: silver;
+        display: flex;
+        background-color: #252323;
+        color: #fff;
+        font-size: 14px;
+        padding: 10px 0;
     }
     .footer-two li{
       list-style: none;
