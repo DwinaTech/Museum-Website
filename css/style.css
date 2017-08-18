@@ -23,12 +23,7 @@ body{
     overflow: hidden;
 }
 /*============ Main Content =============*/
-.main-content{
-     margin-top: -100px;
-    z-index: 27;
-    left: 7.5%;
-    right: 7.5%;
-}
+ 
 .head-background{
     height: 400px;
     width: 100%;
