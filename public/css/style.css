@@ -212,7 +212,6 @@ body{
 }
 .second-head-warp .first-group > button{
 	width: 17.9%;
-	font-size: 5px;
 	margin-top: 5px;
 	background: #325249;
 	padding: 4px 2px;
@@ -223,7 +222,8 @@ body{
 .third-head-warp > button >a,
 .side-bar-head-warp button >a{
 	text-decoration: none;
-	color: #fff;
+    color: #fff;
+    font-size: 14px;
 }
 .second-head-warp .second-group{
     width: 49%;
@@ -245,7 +245,6 @@ body{
 }
 .second-head-warp .second-group > button{
 	width: 18%;
-	font-size: 5px;
 	background: #325249;
 	padding:4px 2px;
 	border: none;
@@ -277,7 +276,6 @@ body{
 }
 .third-head-warp > button{
 	width: 10%;
-	font-size: 5px;
 	background: #325249;
 	padding:4px 2px;
 	border: none;
@@ -308,7 +306,6 @@ body{
 }
 .side-bar-head-warp > button{
 	width: 44%;
-    font-size: 5px;
     background: #325249;
     padding: 4px 2px;
     border: none;
